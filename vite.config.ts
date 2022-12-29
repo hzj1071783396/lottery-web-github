@@ -8,5 +8,8 @@ export default defineConfig({
     Components({
       resolvers: [VantResolver()],
     })
-  ]
+  ],
+  build:{
+    outDir:"docs"
+  }
 })
