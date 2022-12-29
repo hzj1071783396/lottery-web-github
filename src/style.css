@@ -1,0 +1,45 @@
+:root {
+    --ball-size: 28px;
+    --margin-right: 5px
+}
+
+html, body, #app {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#app {
+    background-color: #F6F6F6;
+}
+
+.ball {
+    display: flex;
+}
+
+.circle {
+    width: var(--ball-size);
+    height: var(--ball-size);
+    text-align: center;
+    line-height: var(--ball-size);
+    border-radius: var(--ball-size);
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.head {
+    background-color: red;
+}
+
+.after {
+    background-color: #3978FB;
+}
+
+.split-line-y {
+    border-right: 1px solid #C9C9C9;
+    margin-right: 10px;
+    height: 17px
+}
